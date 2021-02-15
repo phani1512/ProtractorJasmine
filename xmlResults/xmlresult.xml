@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="10.633">
+ <testsuite name="Verifing Title" timestamp="2021-02-09T19:57:49" hostname="localhost" time="10.633" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verifing Title" name="validate title" time="8.942">
+   <failure type="toBe" message="Expected &apos;Trans-Portal&apos; to be &apos;Trans-Portal111&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (D:\Protractor_programs\TransportalJasmine\FuntionalTests\Login\VerifyTitle.js:16:32)
+    at C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+    at C:\Users\phane\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Verifing Title" name="validate Exact title" time="1.689" />
+ </testsuite>
+</testsuites>
